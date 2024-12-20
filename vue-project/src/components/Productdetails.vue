@@ -1,6 +1,5 @@
-
 <script setup>
 </script>
 <template>
-  <h1>hello</h1>
+    <h1>product details</h1>
 </template>

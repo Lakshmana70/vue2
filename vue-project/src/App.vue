@@ -1,17 +1,15 @@
 <script setup>
-import navbar from "./components/navbar.vue"
-import counter from "./components/counter.vue";
-import todolist from "./components/todolist.vue";
-import refactoring from "./components/refactoring.vue";
+import products from "./components/products.vue";
+import formdata from "./components/formdata.vue";
 </script>
 
 <template>
   <div>
 
-    <!-- <navbar></navbar>
-    <counter></counter><br>
-    <todolist></todolist> -->
-    <refactoring></refactoring>
+    <products></products>
+    <RouterView></RouterView>
+   
+    <!-- <formdata></formdata> -->
   </div>
   
 </template>
