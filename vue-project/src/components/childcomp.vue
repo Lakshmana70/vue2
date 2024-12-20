@@ -1,8 +1,6 @@
 <script setup>
 // const props = defineProps({data:Array,done:Function});
  const props=defineProps(["data","done","deletefn","editfn"])
-
-
 </script>
 
 <template>
